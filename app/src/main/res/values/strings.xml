@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sam and Ethel\'s Business Card</string>
+    <string name="business">Sam and Ethel\'s</string>
+    <string name="hourTitle"><u>Hours:</u></string>
+    <string name="weekdayHours">Mon &#8211; Sat: 6am to 3pm</string>
+    <string name="sundayHours">Sun: 8am to 2pm</string>
+    <string name="location">120 E. Main St.\nTipp City, Ohio 45371</string>
+    <string name="phone">(937) 667&#8211;0113</string>
+    <string name="web">samandethels.com</string>
+    <string name="slogan">\"History, Value and a Taste of Home\"</string>
+</resources>

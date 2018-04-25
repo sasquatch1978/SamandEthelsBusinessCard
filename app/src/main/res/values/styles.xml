@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Links">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/drawableLeftMargin</item>
+        <item name="android:layout_marginTop">@dimen/textTopMargin</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+        <item name="android:textColorLink">@color/linkColor</item>
+        <item name="android:textSize">@dimen/linkSize</item>
+    </style>
+
+    <style name="LinksLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/drawableLeftMargin</item>
+        <item name="android:layout_marginRight">@dimen/drawableLeftMargin</item>
+        <item name="android:layout_marginTop">@dimen/textTopMarginLand</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+        <item name="android:textColorLink">@color/linkColor</item>
+        <item name="android:textSize">@dimen/linkSize</item>
+    </style>
+
+    <style name="Hours">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/captionColor</item>
+        <item name="android:textSize">@dimen/captionSize</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

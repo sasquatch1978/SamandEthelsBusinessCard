@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/drawablePadding"
+            android:layout_marginStart="@dimen/drawablePadding"
+            android:layout_marginTop="@dimen/drawablePadding"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/burger" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/hoursTopMarginLand"
+                android:text="@string/hourTitle"
+                android:textAlignment="center"
+                android:textColor="@color/captionColor"
+                android:textSize="@dimen/captionSize"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Hours"
+                android:text="@string/weekdayHours"
+                android:textAlignment="center" />
+
+            <TextView
+                style="@style/Hours"
+                android:text="@string/sundayHours"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drawablePadding"
+                android:text="@string/business"
+                android:textAlignment="center"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/titleSize"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/LinksLand"
+                android:autoLink="all"
+                android:drawableLeft="@drawable/location"
+                android:drawableStart="@drawable/location"
+                android:text="@string/location" />
+
+            <TextView
+                style="@style/LinksLand"
+                android:autoLink="all"
+                android:drawableLeft="@drawable/phone"
+                android:drawableStart="@drawable/phone"
+                android:text="@string/phone" />
+
+            <TextView
+                style="@style/LinksLand"
+                android:autoLink="all"
+                android:drawableLeft="@drawable/web"
+                android:drawableStart="@drawable/web"
+                android:text="@string/web" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/textTopMarginLand"
+                android:text="@string/slogan"
+                android:textAlignment="center"
+                android:textColor="@color/captionColor"
+                android:textSize="@dimen/captionSize"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins/Padding -->
+    <dimen name="textTopMargin">28dp</dimen>
+    <dimen name="textTopMarginLand">30dp</dimen>
+    <dimen name="hoursTopMarginLand">25dp</dimen>
+    <dimen name="drawableLeftMargin">60dp</dimen>
+    <dimen name="drawablePadding">16dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="titleSize">34sp</dimen>
+    <dimen name="captionSize">16sp</dimen>
+    <dimen name="linkSize">20sp</dimen>
+</resources>
